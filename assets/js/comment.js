@@ -58,4 +58,4 @@
      fs.writeFileSync('./records.txt', `${comment}\n${datetime}\n`, { flag: 'a' });
  }
  
- app.listen(8888, 'chuanhome.vercel.app/assets/');
+ app.listen('chuanhome.vercel.app');
